@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b22222; /* Red */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    background-color: #ffd700; /* Gold */
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-post h2 {
+    color: #b22222;
+    margin: 20px 0 10px;
+}
+
+.blog-post p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+nav {
+    background-color: #b22222; /* Red */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold */
+}
+.video-container iframe {
+    width: 100%; /* Makes the video take the full width of the parent container */
+    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+    max-width: 800px; /* Optional: Sets a maximum width for the video */
+}
